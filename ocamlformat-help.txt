@@ -474,7 +474,7 @@ OPTIONS
            Unsafe to turn off. May be set in .ocamlformat. The flag is set by
            default.
 
-       --disable-conf-attrs
+       --disable-conf-attrsDo 
            Disable configuration in attributes.
 
        --disable-conf-files
@@ -531,7 +531,8 @@ OPTIONS
            Unset quiet.
 
        --no-version-check
-           Do no check version matches the one specified in .ocamlformat.
+           Do not check that the version matches the one specified in
+           .ocamlformat.
 
        -o DST, --output=DST
            Output file. Mutually exclusive with --inplace. Write to stdout if
